@@ -1,0 +1,12 @@
+<script src='http://code.jquery.com/jquery.min.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.4.6/jscolor.min.js'></script>
+<input id='rgb' name='customfieldid' class='jscolor {onFineChange:'update(this)'}' value='ffcc00'>
+<script>function update(picker) {
+	
+	document.getElementById('rgb').value = Math.round(picker.rgb[0]) + ', ' + Math.round(picker.rgb[1]) + ', ' + Math.round(picker.rgb[2]);
+	
+	}</script>
+
+
+    document.getElementById('red').value = Math.round(picker.rgb[0])
+    document.getElementById('green').value = Math.round(picker.rgb[1])
+    document.getElementById('blue').value = Math.round(picker.rgb[2])
