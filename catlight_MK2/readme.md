@@ -21,3 +21,9 @@ If you put a lot of high value CAPs on the LED side you need to lower the value 
 wifi standby time with a genuine LIPO Battery is 30+ hours
 
 USB-C fast charging works up to 2.5 Ampere !! (almost full in 60 minutes ;))
+
+![screen1](https://github.com/specs32/catlight/blob/master/catlight_MK2/Screenshot%202021-08-22%2008-15-09.png)
+![screen2](https://github.com/specs32/catlight/blob/master/catlight_MK2/Screenshot%202021-08-22%2008-15-27.png)
+![screen3](https://github.com/specs32/catlight/blob/master/catlight_MK2/Screenshot%202021-08-22%2008-27-51.png)
+![screen4](https://github.com/specs32/catlight/blob/master/catlight_MK2/Screenshot%202021-09-01%2018-01-33.png)
+
