@@ -21,9 +21,17 @@ There is a platformio_override.ini in the base Folder I used to compile WLED wit
 DO NOT put too much capacitance on the LED side, it will mess with the soft latch ! 1µF per duris LED is sufficient and works.
 If you put a lot of high value CAPs on the LED side you need to lower the value of R5. (1.2KΩ with 25 µF on the LED side. Flash and array)
 
-wifi standby time with a genuine LIPO Battery is 30+ hours
+and
+WARNING !!! 
+
+the duris LEDs are mosfet driven and that is their ONE and ONLY current limiter, a duty cycle of 30 % on a full lipo makes a nice bright light.
+if you pull up the mosfet with 100 % duty cycle it make a smolered PCB with LEDs falling off... probably a good idea to keep that in mind when fumbling with the firmware...
+
+
+wifi standby time with a genuine LIPO Battery is 60+ hours
 
 USB-C fast charging works up to 2.5 Ampere !! (almost full in 60 minutes ;))
+the MAX 77751 supports pass through and power delivery, so you can charge your phne on the light in an emerrgency !
 
 ![screen1](https://github.com/specs32/catlight/blob/master/catlight_MK2/Screenshot%202021-08-22%2008-15-09.png)
 ![screen2](https://github.com/specs32/catlight/blob/master/catlight_MK2/Screenshot%202021-08-22%2008-15-27.png)
