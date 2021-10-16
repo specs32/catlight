@@ -19,7 +19,7 @@ For now there is rudimentary arduino firmware in the arduino folder.
 There is a platformio_override.ini in the base Folder I used to compile WLED with in code OSS with platformio under arch linux.
 
 
-#### WARNING !!! WARNING !!! WARNING !!! WARNING !!! WARNING !!! WARNING !!! WARNING !!! WARNING !!! WARNING !!! WARNING !!! WARNING !!! 
+#### WARNING !!! WARNING !!! WARNING !!! WARNING !!! WARNING !!! WARNING !!! WARNING !!! WARNING !!! 
 
 DO NOT put too much capacitance on the LED side, it will mess with the soft latch ! 1µF per duris LED is sufficient and works.
 If you put a lot of high value CAPs on the LED side you need to lower the value of R5. (1.2KΩ with 25 µF on the LED side. Flash and array)
