@@ -14,6 +14,9 @@ So this would be the flatlight REV 21 aka CATLight MK2
 There is one thing though... the Antenna matching Network works better if you put a cap in series and the coil in the first place to ground. (swap C24 with L3)
 
 This revision works with WLED beta 2 (0.13.0-b2) there are filesystem issues, but the default install seems to work and you can save the LED settings and power off / on again and it maintains theses settings even there is no "official" support for the ESP32-S2 yet.
+MAYBE I will fork and branch and modify and write a usermod for wled in the future. Maybe...
+For now there is rudimentary arduino firmware in the arduino folder.
+There is a platformio_override.ini in the base Folder I used to compile WLED with in code OSS with platformio under arch linux.
 
 DO NOT put too much capacitance on the LED side, it will mess with the soft latch ! 1µF per duris LED is sufficient and works.
 If you put a lot of high value CAPs on the LED side you need to lower the value of R5. (1.2KΩ with 25 µF on the LED side. Flash and array)
