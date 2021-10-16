@@ -13,11 +13,9 @@ Features :
 - 16 neopixels on there 2 rows by 8.. i think it is possible to realize a POV display with it since there also is a LSM6DS3 IMU on there.
 - 10 Duris high power LEDs (100mA each) this is the main light source (300 mA J-Series are no longer available.. sadly !)
 - 4 TEMP sensors on the light. 2 NTCs close to critical places (XLAMP and Duris LEDS) 1 in the ESP itself and on in the IMU.
+- Battery Voltage measuring (resistor divider on analog 1)
 
-The last flatlight revision was 20.
-So this would be the flatlight REV 21 aka CATLight MK2
-
-## This Revision works ! 
+### This Revision works ! 
 
 ... with no errors as far as I can see and test (I own no OSZI ;))
 
@@ -56,6 +54,8 @@ Have fun emitting Bosons of differend wavelength..
 made with <3 btw!
 
 #### Special thanks to Lisa who provided all the cat drawings !!!
+___
+___
 
 
 ![screen1](https://github.com/specs32/catlight/blob/master/catlight_MK2/Screenshot%202021-08-22%2008-15-09.png)
