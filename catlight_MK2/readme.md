@@ -51,9 +51,12 @@ If you blow up your toaster .. not my fault.
 
 the overall development cost was 600 €, the cost per CATLight (PCB + parts + 3dprint) is around 50 € assembly time is 6-8 hours if you do it 100% by hand.
 
-Have fun emitting Bosons of differend wavelenght..
+Have fun emitting Bosons of differend wavelength..
 
-made with <3 !
+made with <3 btw!
+
+#### Special thanks to Lisa who provided all the cat drawings !!!
+
 
 ![screen1](https://github.com/specs32/catlight/blob/master/catlight_MK2/Screenshot%202021-08-22%2008-15-09.png)
 ![screen2](https://github.com/specs32/catlight/blob/master/catlight_MK2/Screenshot%202021-08-22%2008-15-27.png)
